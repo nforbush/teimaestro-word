@@ -1,0 +1,80 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin-left: 2px;
+    margin-right: 5px;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+.error-message, .success-message {
+    font-weight: bold;
+}
+button[type=button]:disabled {
+    cursor:not-allowed;
+}
+
+img.icon {
+    margin-left: 2px;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+}
+header h4 {
+    margin-top:5px;
+}
+/* bootstrap 5 */
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bs-secondary);
+}
+.alert-dismissible {
+    margin: 1px;
+    padding: 8px 48px 8px 8px;
+}
+.alert-dismissible .btn-close {
+    padding: 1rem;
+    /*padding: 1.25rem 1rem;*/
+}
+
+.btn-xs {
+    --bs-btn-padding-x: 0.3rem;
+    font-size: 0.75rem;
+}
+.btn-close {
+    height: initial;
+    width: initial;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    text-decoration: underline;
+    /*color: var(--bs-nav-tabs-link-active-color);*/
+    /*background-color: var(--bs-nav-tabs-link-active-bg);*/
+    /*border-color: var(--bs-nav-tabs-link-active-border-color);*/
+}
+
+ul, ol {
+    margin-right:5px;
+}
+
+div.disabled {
+    cursor: not-allowed !important;
+}
+
+.web-server-status {
+    font-style: italic;
+}
+.web-server-status.error {
+    font-weight: bold;
+}
+.addin-version-wrap {
+    font-size: .6em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: gray;
+}
+
